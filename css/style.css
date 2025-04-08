@@ -1,0 +1,673 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+body{height: 9500px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+.header{width: 100%;
+height: 60px;
+position: fixed;
+padding-top: 5;
+z-index: 3;
+background-color: rgb(0, 8, 91);}
+
+
+.header  ul  li  a::after{content: "";
+    position: absolute;
+z-index: 2;
+width: 0;
+left: 0;
+bottom: -5px;
+height: 2;
+background-color: #e0d5d5;}
+ 
+.header ul li a:hover::after{width: 100%;
+    transition: 0.5s;}
+
+    .header  ul   .li1  ul  li  .a-hov::after{  content:"" ;
+    position: absolute; 
+    z-index: 2;
+    width: 0;
+    left: 0;
+    bottom: -5px; 
+    height: 2;
+    background-color: rgb(0, 8, 91);}
+
+     .header  ul .li1  ul  li  .a-hov:hover:after{width: 100%; 
+    transition: 0.5s;} 
+     
+.inp1{margin-left:50 ;
+    width: 200px;
+    height: 35px;
+
+    border-radius: 15px;
+    border: none;
+padding: 10 0;}
+
+
+
+
+
+.i1{font-size: 40px;
+    margin-left: -90;
+    color:aliceblue;
+    float: left;}
+
+    .serch{width: 250px;
+        margin: 5 0;
+border-radius: 15px;
+    height: 35px;
+background-color: #fff;
+float: left;
+margin-left:150px}
+
+    .i2{  font-size: 20px;
+        float: left;
+        color: #000000;
+        margin: 15 0;
+        margin-left: -240px;
+    
+    }
+.list   LI {display: inline;
+direction: none;
+font-size: 22px;
+padding: 0 15;
+}
+.list{margin-left:800px ;
+padding: 10;}
+.list  LI   A {text-decoration: none;
+position: relative;
+color:  rgb(255, 255, 255);}
+
+.hov-header  {
+position: absolute;
+text-align: center;
+z-index: 1;
+font-weight:bold ;
+text-transform: capitalize;
+visibility: hidden;
+border-radius: 15px;
+background-color: #ffffff;
+display: block;
+top: 40;
+padding: 10 20;
+left:1250;}
+
+.hov-header  li  a{display: block;
+    color:  rgb(0, 8, 91);
+padding: 10 20;}
+
+.li2{margin: 25 0;}
+
+.li1:hover   .hov-header{visibility: visible;}
+
+
+/* /////////////////////////////////////////// */
+.hom{background-image: url(../imge/gettyimages-183256716-612x612.jpg);
+width: 100%;
+background-size:cover ;
+height: 100vh;
+position: relative;}
+.hom-overlay{background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.hom-information{
+font-size: larger;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%  , -50%);
+width: 50%;}
+.hom-information   h2{    font-size: 58px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.hom-information   p{color: #e0d5d5;
+    letter-spacing:2px ;
+    font-size: 16px;
+margin: 20px 0;}
+.home-btn 
+{
+    width: 140px;
+    padding: 16px  0px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.home-btn2 {
+    background-color:  rgb(0, 8, 91);
+    color: #fff;
+    margin-left: 13px;
+}
+
+.home-btn:hover {
+    opacity: 0.6;
+}
+/* ///////////////////////////////////////////////// */
+
+.titel{text-align: center;
+    text-transform: capitalize;
+
+font-size: 40px;
+margin-top: 30px;}
+
+.line{width: 100px;
+height: 4px;
+background-color: rgb(0, 8, 91) ;
+margin: auto;
+margin-top: 10px ;
+border-radius: 10px;}
+
+.continer{width: 80%;
+margin: auto;}
+
+.welcome{width: 30%;
+    height: 250px;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+border: 5px solid  rgb(0, 8, 91);
+    text-align: center;
+    padding: 10 0;
+    text-transform: capitalize;
+    border-radius: 10px;}
+    
+.welcome  p{margin: 20 0;
+        font-weight: bold;
+        font-size: 18px;}
+    .iwel{margin:20 0;
+        color: rgb(0, 8, 91);
+    font-size: 28px;}
+
+    .p2{font-size: 20px;
+        position: absolute;
+        left: 200px;
+        z-index: 1;
+    color: rgb(0, 8, 91);
+cursor: pointer;}
+
+    .welcome2{margin: 30px 5%;}
+    .welcome::after{background-color: #0a06f5;
+      content: "";
+      top: 0;
+      left: 0;
+        width:0%;
+    height:0%;
+opacity: 0;
+    position: absolute;}
+
+    .welcome:hover::after{
+        opacity: 0.3;
+        transition:0.5s;
+         width:100%;
+        height:100%;}
+        .welcome:hover  .tite2{color: #000076;}
+        /* ///////////////////////////////////////// */
+       .continer-works{width: 100%;
+        background-color:  rgba(6, 6, 93, 0.2);
+      
+        margin-top: 700px;}
+        .perant-works{width: 80%;
+       
+    overflow: auto;
+        margin: auto;}
+
+        /* .perant2{position: relative;} */
+
+.tit-works{text-transform: capitalize;
+    text-align: center;
+    color:  rgb(0, 0, 105);
+padding-top: 10;
+    font-size: 40px;}
+.line2{background-color:rgb(1, 1, 106);
+margin-bottom: 30px;}
+/* /////////////////// */
+.img-works{width: 30%; 
+  float: left;
+margin-bottom:5% ;
+  background-size:cover;
+  text-align: center;
+    height: 250px;
+position: relative;}
+
+.img1{background-image: url(../imge/c2ffb62f-luka-doncic-dribbles-dallas-mavericks-getty-images.jpg);}
+.img2{background-image: url(../imge/d64116444cfb1bf928b8aafee9aaf3b4.jfif);
+margin: 0 5%;}
+.img3{background-image: url(../imge/images.jfif);}
+.img4{background-image: url(../imge/WhatsApp\ Image\ 2025-03-22\ at\ 02.07.44_22df0665.jpg);}
+.img5{background-image: url(../imge/size=708x398.jpg);
+    margin: 0 5%}
+.img6{background-image: url(../imge/Steph_Curry_\(51915116957\).jpg);}
+
+/* ////////////////////////////////////// */
+
+
+.info-work{padding: 20  0;
+z-index: 2;
+/* left: 80; */
+position: absolute;
+color: #ffffff;
+right: 0;
+bottom: 0;
+top: 0;
+left: 0;
+background-color:rgba(2, 0, 95, 0.7);
+visibility: hidden;}
+
+.p-work{margin: 30 0;
+    font-size: 20;}
+.tit-hover-work{font-size: 40;}
+.bas{font-size: 30;
+color:rgb(1, 1, 106);}
+.i-bacqraund{width: 60;
+height: 40 ;
+padding: 5;
+margin-left: 5;
+float: left;
+border-radius: 5px;
+background-color: #ffffff;}
+.moving-work{
+    margin: 0  0  0  160;}
+/* /////////////////////// */
+.img-works:hover  .info-work{visibility: visible;}
+/* ////////////////////// */
+.offer{margin-left: 5%;}
+.offer1{margin-left:5%;}
+.text-offer{
+    text-align: 100px;
+    position: relative;
+    padding : 40  5  0   60;
+    border: 3px solid  rgba(2, 0, 95, 0.2);
+text-align: left;}
+.ioffer{position: absolute;
+top: 20px;
+left: 5px;}
+.text-offer   p{opacity: 0.5;
+text-transform: lowercase;}
+.text-offer:hover   p{opacity: 1;}
+.text-offer:hover  .tite2{color: #2500c9;}
+.text-offer:hover::after{
+    opacity: 0.2;}
+/* ///////////////////////// */
+.us-perant{margin-top: 700px;}
+
+.us-img{width: 400;
+background-image: url(../imge/1731516510067.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 570px;
+margin-left: auto;
+
+text-align: center;}
+
+.us-inp{background-color:rgb(1, 1, 106);
+    width: 25;
+    height: 25;
+    float: left;
+margin-left: 10px;
+margin-top: -20px;
+    border-radius: 50%;}
+
+    .radio{margin-left: 1250px;}
+
+.us-inp2{background-color:gray;}
+.us-inp2:hover{background-color:rgb(1, 1, 106);}
+
+.tit-us{text-align: left;}
+.lin-us{margin-left: 5;
+width: 60;}
+
+.us-info{
+height: 570px;
+font-size: 22px;
+width: 900px;
+margin-top: -550px;}
+
+.p-us{padding: 50 0;}
+.p-us2{padding: 20 0;}
+/* /////////////////////////////////////////////////////////////////// */
+
+.continer-fixed{width: 100%;
+height: 500px;
+margin: 500px  0  200  0;
+background: fixed  no-repeat;
+position: relative;
+background-size:cover ;
+background-image: url(../imge/basketball.jpeg);}
+
+.icon-fixed{
+    color: #ffffff;
+float: left;
+    text-align: center;
+    margin: 150  130;
+    padding:40  0 ;
+width: 200px;
+font-weight: bold;
+height: 200px;
+font-size: 25;}
+
+.icon-fixed  .p-fixed{margin-bottom: -5px;}
+.icon-fix{margin-bottom: 20  ;
+color: #4046f9;
+font-size: 50; }
+
+.fixed-overlay{position: absolute;
+z-index: 1;}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.perant-table{margin: 60  0 ;}
+
+.tit-table{font-size: 55}
+
+.line-table{width: 150px;}
+
+.table{width: 30%;
+height: 600px;
+position: relative;
+float: left;
+border: 3px solid  rgba(2, 0, 95, 0.2);
+padding: 20  0;
+border-radius: 15Px;}
+
+.p-table{font-size: 25;
+    font-weight: bold;
+    margin: 25  0;
+text-align: center;}
+
+.table:hover    .p-table{color: #0a06f5;}
+
+.radio-table{width: 160px;
+height: 160px;
+padding: 5;
+border: 3px solid  rgba(2, 0, 95, 0.2);
+border-radius: 50%;
+margin-bottom: 40;
+margin-left: 150px;}
+
+.radio-table  p{margin-left: 20;}
+
+.radio-table  .ml-radio{font-size: 28;
+    font-weight: bold;
+margin-top:-4 ;}
+
+.radio-table    .p-radio{font-size: 70;
+    margin-left: 7px;
+font-weight: bold;}
+
+
+.table   .text-table p{font-size:27 ;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20;
+    font-weight: bold;}
+
+    .but-table{height:55;
+        border-radius: 20px;
+font-weight: bold;
+border: 3px solid  rgba(2, 0, 95, 0.2);
+font-size: 27px;
+text-transform: capitalize;
+margin: 20px  75px;
+width: 300px;}
+
+
+.table-centre{margin: 0 5%;}
+
+.after-table{position: absolute;
+    margin: 0  10;
+z-index: 1;}
+
+.table::after{content: "";
+width: 100%;
+height: 0%;
+position: absolute;
+top: 0;
+border-radius: 15Px;
+background-color: #0a06f5;
+opacity: 0;}
+
+.table:hover::after{
+    height: 100%;
+    transition: 0.5s;
+    top: 0;
+opacity: 0.4;}
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.fixed2{margin-top: 1000px;
+background-image: url(../imge/Steph_Curry_\(51915116957\).jpg);}
+
+
+.img-fexed2{width: 150;
+height: 150;
+margin:120  0  120   300 ;
+border-radius: 50%;
+background-size:cover ;
+background-image: url(../imge/79f2fe8c-fbe0-4092-9822-433d980032e2-USATSI_11563278.webp);}
+
+.info-fixed2{width: 300;
+    margin-top: -250px;
+    margin-left: 470;
+color: #ffffff;
+position: absolute;}
+
+.text-fixed{font-size: 40;}
+
+.text-fixed2{font-size:22 ;
+color: #4741ff;}
+
+.text-fixed3{color: #fff;
+margin-left: 310;
+margin-top: -100;}
+
+.name2{margin-left: 700;
+margin-top: -330;}
+
+.imag-name2{background-image: url(../imge/LeBron_James_-_51959723161_\(cropped\).jpg);}
+
+.info-name2{width: 500;}
+/* ///////////////////////////////team///////////////////////////////////////// */
+.pp-team{margin-bottom: 100px;
+width: 100px;}
+
+
+.perant-iteam{
+    float: left;
+    background-color: rgb(209, 209, 209);
+    width: 30% ;
+    position: relative;
+    border-radius: 10px;
+    padding: 16px 14px ;
+    text-align: center;}
+
+
+.team-img {
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+
+    position: relative;}
+
+    .team-img   img{width: 100%;}
+
+    .team-icons{position: absolute;
+        visibility: hidden;
+     
+    background-color:rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+     right:0 ;}
+
+    .team-icons   i{width: 60;
+        height: 60;
+    margin-left: auto;
+        font-size: 25;
+        line-height: 2;
+        color: #ffffff;
+        background-color:rgb(2, 2, 154);
+display: block;}
+
+.perant-iteam:hover  .team-icons {
+visibility: visible;}
+
+.team-info{padding: 10  0;}
+
+
+.team-info  p{font-size: 20;}
+    .team-info-title{font-size: 30;
+margin: 0  0  20 0;}
+
+.iteam2{margin: 0  5%;}
+/* //////////////////////////////// */
+
+.perant-iteam::after{content: "";
+position: absolute;
+z-index: 2;
+width: 100%;
+top: 0;
+left:0 ;
+height: 0;
+background-color: rgba(2, 0, 95, 0.2);}
+
+.perant-iteam:hover::after{
+height: 100%;
+width: 100%;
+transition: 0.5s;
+top: 0;}
+
+.perant-iteam:hover         p{color: #0a06f5;}
+.perant-iteam:hover  .team-info-title{color: #ffffff;}
+/* ////////////////////////////news////////////////////////////// */
+
+.tit-news{margin-top:1000px;}
+
+.tem-news{
+    float: left;
+border: 3px solid  rgba(2, 0, 95, 0.2);
+height: 680px;
+    width: 30% ;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 14px ;
+    text-align: center;}
+
+   
+
+    .news-img{background-image: url(../imge/images\ \(1\).jfif);
+    width: 90%;
+    border-radius: 10px;
+margin: auto;
+background-size: cover;
+height: 300px;}
+  
+.news-icon{padding: 20px  0;}
+.news-icon   span{padding:0  20px  10  5;
+font-size: 25px;
+font-weight: bold;}
+.news-icon  i{font-size: 25px;
+    color: #000076;}
+
+.h-news{margin-top: -10;}
+.news-p2{font-weight: bold;
+}
+.news-info{position: absolute;}
+
+.news-info  span{font-size: large;
+    font-weight: 500;
+    text-transform: capitalize;}
+
+    .news-info  p{padding: 20 0;
+        font-weight: bold;
+        margin-left: -50;
+        font-size: 25px;
+    color: #000076;}
+
+    .tem-news2{margin: 0  5% ;}
+
+    .news-img2{background-image: url(../imge/images\ \(2\).jfif);}
+    .news-img3{background-image: url(../imge/images\ \(3\).jfif);}
+/* //////////////////////////////////////////////// */
+.tem-news::after{content: "";
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left:0 ;
+    height: 0;
+    background-color: rgba(2, 0, 95, 0.2);}
+    
+    .tem-news:hover::after{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    top: 0;}
+    
+    .tem-news:hover    span{color:rgb(2, 2, 154);}
+    .tem-news:hover  .team-info-title{color: #ffffff;}
+
+.news-hover{position: absolute;
+left:50px ;
+right: 50px;
+z-index: 2;}
+
+.p2-news{left: 160;}
+/* ////////////////////////////////////////////// */
+
+.coneiner-end{width: 100%;
+background-color: rgba(2, 0, 95, 0.2);
+height: 500px;
+text-align: center;
+padding: 30  0;
+margin-top: 1000px;
+}
+
+.img-end{background-image: url(../imge/gettyimages-183256716-612x612.jpg);
+width: 450px;
+height: 300px;
+border-radius: 15px;
+margin:  auto;}
+
+.icon-end  i{font-size: 40;
+  
+color: #ffffff;}
+.icon-end{
+margin:30 0 0  700 ;
+}
+
+.p-end{font-weight: bold;
+    margin-top: 120;
+font-size: medium;}
+
+.icon-end  .reduis:hover{opacity: 1;}
+
+
+.reduis{width: 60;
+height: 60;
+background-color:#03017c ;
+opacity: 0.5;
+margin-left:15;
+float: left;
+padding: 10  0;
+border-radius: 50%;}
+
+ 
+
+
+
+
+
+
+
+
+
