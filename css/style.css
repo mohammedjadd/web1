@@ -278,11 +278,18 @@ background-size:cover;
 width: 80%;
 background-repeat:no-repeat ;
 filter: drop-shadow(-20px 20px 10px  rgba(0, 0, 0, 0.6));
+animation-name: png;
+animation-duration: 1s;
 margin-top: -30px;
 transform:translate(70%,2%);
 
 height: 87vh;
 }
+@keyframes png{
+    from{transform:translate(90%,2%);}
+    to{transform:translate(70%,2%);}
+}
+
 
 .perant-img{width: 100%;
     background-color: #e2fae8;
